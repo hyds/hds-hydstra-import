@@ -1,0 +1,26 @@
+{
+  "name": "hds-hydstra-import",
+  "version": "1.0.0",
+  "description": "API for importing Hydstra data",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository":{
+    "type":"git",
+    "url":"git://github.com:hyds/hds-hydstra-import.git"
+  },
+  "scripts": {
+    "test": "node ./tests"
+  },
+  "author": "Sholto Maud",
+  "license": "MIT",
+  "devDependencies": {
+    "request": "^2.53.0",
+    "through": "^2.3.6",
+    "grape": "^1.0.1",
+    "mockery": "^1.4.0",
+    "route-tester": "0.0.1"
+  },
+  "dependencies": {}
+}
