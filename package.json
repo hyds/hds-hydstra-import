@@ -13,7 +13,10 @@
   "scripts": {
     "test": "node ./tests"
   },
-  "author": "Sholto Maud",
+  "author": "Sholto Maud <Sholto.maud@gmail.com>",
+  "bugs":{
+      "url":"https://github.com/hyds/hds-hydstra-import.git"
+    },
   "license": "MIT",
   "devDependencies": {
     "request": "^2.53.0",
